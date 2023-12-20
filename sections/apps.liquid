@@ -1,0 +1,53 @@
+<div class="" style="background-image: url({{ section.settings.image | img_url: '1000x' }})"></div>
+<div class="{% if section.settings.include_margins %}Container{% endif %} app-background-image" style="  background-repeat: no-repeat;
+  background-size: cover; background-position: center;">
+  {%- for block in section.blocks -%}
+    {%- render block -%}
+  {%- endfor -%}
+</div>
+
+<style>
+  .app-background-image {
+    background-image: url({{ section.settings.image | img_url: 'master' }});
+  }
+  @media screen and (max-width: 550px) { 
+    .app-background-image {
+      background-image: url({{ section.settings.mobile_image | img_url: 'master' }});
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Apps",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1500 x 800px .jpg recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "include_margins",
+      "label": "Include margins",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Apps"
+    }
+  ]
+}
+{% endschema %}

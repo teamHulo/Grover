@@ -1,0 +1,38 @@
+<div class="one-column-img-grid">
+    {%for block in section.blocks %}
+      <div class="Grid__Cell one-column-img">
+        <img src="{{block.settings.image | img_url:'master'}}"/>
+      </div>
+    {%endfor%}
+  </div>
+
+{% schema %}
+  {
+    "name": "one column image",
+    "settings": [
+        ],  
+  "blocks" : [
+        {
+          "type":"image",
+          "name":"banner image",
+          "settings":[
+                  {
+                    "type":"image_picker",
+                    "id":"image",
+                    "label": "banner image",
+                    "info": "5x8 ratio"
+                  }
+                ]
+        }
+        
+        ],
+  "presets" : [
+        {
+          "category": "image",
+          "name": "one column image"
+        }
+        ]
+
+  }
+{% endschema %}
+

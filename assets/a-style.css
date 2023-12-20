@@ -1,0 +1,48 @@
+a#BIS_trigger{
+  display:none;
+}
+button#BIS_trigger{
+  display:none;
+}
+button#BIS_trigger.active{
+  display:block;
+}
+
+
+
+/*--- fix ---*/
+
+button.ProductForm__AddToCart.Button.Button--secondary{
+    background: #FDF8F1 !important;
+    border: 1px solid #000;
+    color: #321A17;
+    text-transform: uppercase;
+    padding: 14px !important;
+    transition:0.3s;
+    font-family: grover_rad!important;
+    text-transform: uppercase;
+    font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
+    text-align: center;
+    letter-spacing: .2em;
+    font-weight: 600;
+    font-style: var(--heading-font-style);
+}
+button.ProductForm__AddToCart.Button.Button--secondary:hover{
+  background:  #321A17 !important;
+  border: 1px solid #000;
+  color: #FDF8F1;
+}
+
+.ProductItem.opacityImage img:nth-child(1){
+  opacity:0 !important;
+}
+.ProductItem.opacityImage img:nth-child(2){
+  opacity:0.5 !important;
+}
+.new-price-custom{
+  text-decoration-line: underline;
+}
+.ProductForm__Label .ProductForm__LabelLink{
+  font-family: inherit !important;
+  font-size: 8px !important;
+}

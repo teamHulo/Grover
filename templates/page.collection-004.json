@@ -1,0 +1,602 @@
+{
+  "sections": {
+    "16436614291bca4b41": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"about_text\"><p>Based in Los Angeles, Grover Rad is a women’s ready-to-wear brand founded by tech entrepreneur Lizzie Grover Rad. The Grover Rad woman isn’t afraid to say who she is and what she believes in.The brand is rooted in history and interwoven with current events. Each collection is inspired by a relevant social message intended to make the wearer and the voyeur think. The pieces are made in Los Angeles and designed with an emphasis on timeless complimentary silhouettes offset with maximalist prints and techniques.<\/p><\/div>"
+      }
+    },
+    "0cd2a747-c91b-4eb8-a290-3d54d2a4a91f": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "section_size": "large",
+        "image": "shopify:\/\/shop_images\/grover-rad-collection-002-newsletter.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_large": true
+      }
+    },
+    "eb4bfafe-86b4-4468-8e93-a98fd1e82d37": {
+      "type": "two-column-images",
+      "blocks": {
+        "61463c2b-f333-45c5-9af1-d1bedae351c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-7.jpg"
+          }
+        },
+        "5373c11e-79e1-4816-b62d-9a8db1637045": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-8.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "61463c2b-f333-45c5-9af1-d1bedae351c4",
+        "5373c11e-79e1-4816-b62d-9a8db1637045"
+      ],
+      "settings": {
+      }
+    },
+    "5bcd0dfa-b60c-46ad-b451-6ac93b852c15": {
+      "type": "two-column-images",
+      "blocks": {
+        "a037cb15-3f72-498f-8248-6acb68aaccbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-1.jpg"
+          }
+        },
+        "d9658113-b04e-43de-af38-59ab9fdb4b7a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a037cb15-3f72-498f-8248-6acb68aaccbd",
+        "d9658113-b04e-43de-af38-59ab9fdb4b7a"
+      ],
+      "settings": {
+      }
+    },
+    "eb53afe9-5621-48dd-8485-62f3137346c9": {
+      "type": "two-column-images",
+      "blocks": {
+        "18633595-8a37-4c03-8d62-3410e979b87f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-4.jpg"
+          }
+        },
+        "a469f199-cc7b-4dd6-8fcc-a730acf9d52f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "18633595-8a37-4c03-8d62-3410e979b87f",
+        "a469f199-cc7b-4dd6-8fcc-a730acf9d52f"
+      ],
+      "settings": {
+      }
+    },
+    "da4d593e-1655-4cac-b292-e366805f3d5e": {
+      "type": "one-column-image",
+      "blocks": {
+        "69420909-e92c-4a55-8d4d-400d13b3dab9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vanitas-Grover-Rad_f74a178f-68fb-44ad-84ba-76f5b277dbfa.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "69420909-e92c-4a55-8d4d-400d13b3dab9"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "5b5c7ca8-990a-4221-86ce-7207e2db38b6": {
+      "type": "two-column-images",
+      "blocks": {
+        "379695f1-0b48-4402-bf13-b80dd1805058": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-10.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-10.jpg"
+          }
+        },
+        "1e5f26b3-e3eb-43be-9d8a-b1fb45d1fe07": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-9.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-9.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "379695f1-0b48-4402-bf13-b80dd1805058",
+        "1e5f26b3-e3eb-43be-9d8a-b1fb45d1fe07"
+      ],
+      "settings": {
+      }
+    },
+    "31048fe4-560b-48a0-821c-e5dd17fc9f69": {
+      "type": "two-column-images",
+      "blocks": {
+        "a6c9a0bf-339b-4c23-a54c-5f578fa52b84": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-11.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-12.jpg"
+          }
+        },
+        "b58f6f7e-2844-4853-a110-1d5b7fa47384": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-12.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-11.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a6c9a0bf-339b-4c23-a54c-5f578fa52b84",
+        "b58f6f7e-2844-4853-a110-1d5b7fa47384"
+      ],
+      "settings": {
+      }
+    },
+    "aa37245a-3b13-44ac-b282-9b5fdb6e8ae0": {
+      "type": "two-column-images",
+      "blocks": {
+        "487328ec-f764-4567-986c-e926fba9b8ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-13.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-13.jpg"
+          }
+        },
+        "7166d74b-ff98-4fe9-b90c-cc39a643fa9c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-14.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-14.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "487328ec-f764-4567-986c-e926fba9b8ab",
+        "7166d74b-ff98-4fe9-b90c-cc39a643fa9c"
+      ],
+      "settings": {
+      }
+    },
+    "8455816f-1b01-4539-a02c-f207a90a0c14": {
+      "type": "two-column-images",
+      "blocks": {
+        "4e7bc4a2-bff5-4ce0-a592-6d88a89f195d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-5.jpg"
+          }
+        },
+        "554c7f3a-b27d-44bd-8433-4a1d3ab9c75b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-17.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "4e7bc4a2-bff5-4ce0-a592-6d88a89f195d",
+        "554c7f3a-b27d-44bd-8433-4a1d3ab9c75b"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3826bfa9-6ac8-41ff-831b-6a43fa189426": {
+      "type": "two-column-images",
+      "blocks": {
+        "920e2822-b30d-427b-9465-509002a67f7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-15.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-16.jpg"
+          }
+        },
+        "1d59a395-84a6-45ba-919b-fbf69361c23a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-16.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-15.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "920e2822-b30d-427b-9465-509002a67f7e",
+        "1d59a395-84a6-45ba-919b-fbf69361c23a"
+      ],
+      "settings": {
+      }
+    },
+    "c5758c62-3173-4024-b125-8c6686f0df97": {
+      "type": "two-column-images",
+      "blocks": {
+        "e3a7912d-5693-445e-8e31-403e9bb963ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-17.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-17.jpg"
+          }
+        },
+        "6a2f84df-a06a-40cc-8b93-596b7d749464": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-18.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-18.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "e3a7912d-5693-445e-8e31-403e9bb963ff",
+        "6a2f84df-a06a-40cc-8b93-596b7d749464"
+      ],
+      "settings": {
+      }
+    },
+    "d3d5ddee-872a-417f-961b-57903ec6e1cf": {
+      "type": "two-column-images",
+      "blocks": {
+        "6bbf0fe1-91d2-4a5c-89be-9b0a3004b638": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-19.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-20.jpg"
+          }
+        },
+        "1c948e37-c07b-497f-a87e-9164cfe8ae53": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-20.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-19.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "6bbf0fe1-91d2-4a5c-89be-9b0a3004b638",
+        "1c948e37-c07b-497f-a87e-9164cfe8ae53"
+      ],
+      "settings": {
+      }
+    },
+    "09312dfa-4676-4cbf-b20b-cc9e15353e81": {
+      "type": "two-column-images",
+      "blocks": {
+        "bdc7f079-5f33-44ee-b2ba-b833fd0b717f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-21.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-21.jpg"
+          }
+        },
+        "48a06a8c-78cb-4b69-aa42-199e66d290c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-22.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-22.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "bdc7f079-5f33-44ee-b2ba-b833fd0b717f",
+        "48a06a8c-78cb-4b69-aa42-199e66d290c1"
+      ],
+      "settings": {
+      }
+    },
+    "d0d065f4-c792-47ba-99d0-7f43f1a2dd6c": {
+      "type": "two-column-images",
+      "blocks": {
+        "5dce131d-7296-4dbd-8639-559c86599c87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-23.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-24.jpg"
+          }
+        },
+        "e9966382-41ae-495a-ab85-eeae0a8b10a8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-24.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-23.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "5dce131d-7296-4dbd-8639-559c86599c87",
+        "e9966382-41ae-495a-ab85-eeae0a8b10a8"
+      ],
+      "settings": {
+      }
+    },
+    "1acc0e58-657a-4522-a489-28a37dfa51d2": {
+      "type": "two-column-images",
+      "blocks": {
+        "02a40457-324c-4976-81b5-ed9a9f1a35cb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-25.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-25.jpg"
+          }
+        },
+        "9ca6e884-f9c4-410a-a43a-02a9fc44e457": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-26.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-26.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "02a40457-324c-4976-81b5-ed9a9f1a35cb",
+        "9ca6e884-f9c4-410a-a43a-02a9fc44e457"
+      ],
+      "settings": {
+      }
+    },
+    "fe31df23-46b8-4daa-abae-17b1d863a9ab": {
+      "type": "two-column-images",
+      "blocks": {
+        "5a612223-9183-4188-89ce-f420dfae072d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-27.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-28.jpg"
+          }
+        },
+        "c01f23a4-acb3-4dd3-b8d9-bcea00039130": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grover-rad-collection-004-28.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/grover-rad-collection-004-27.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "5a612223-9183-4188-89ce-f420dfae072d",
+        "c01f23a4-acb3-4dd3-b8d9-bcea00039130"
+      ],
+      "settings": {
+      }
+    },
+    "541bf520-837e-4b99-b3e7-7f3e708751da": {
+      "type": "two-column-images",
+      "blocks": {
+        "d72f0441-ce89-4912-b97f-e4ea846ed387": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web3_859f9d40-c4b6-4665-aadc-73e82d72f09e.jpg"
+          }
+        },
+        "ba06cb09-5d99-4f4e-b900-f17174c1ab00": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web4_f4903ac4-834b-43b0-b0e7-c3398330e36d.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d72f0441-ce89-4912-b97f-e4ea846ed387",
+        "ba06cb09-5d99-4f4e-b900-f17174c1ab00"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "903d2b4a-8ed3-4b4e-a6ca-57b0008307ac": {
+      "type": "two-column-images",
+      "blocks": {
+        "cb196e88-2e2d-4505-a4c2-6dbaf9b2fbac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web31.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_003_web32.jpg"
+          }
+        },
+        "02c2af9e-b93d-4c0e-a375-1c366fb8a7e3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web32.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_003_web31.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "cb196e88-2e2d-4505-a4c2-6dbaf9b2fbac",
+        "02c2af9e-b93d-4c0e-a375-1c366fb8a7e3"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "65e9c3dc-955c-4f91-9ee7-bc309195f98c": {
+      "type": "two-column-images",
+      "blocks": {
+        "c041d1b9-ffbe-4e84-97e0-626b6e5d11b5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web33.jpg"
+          }
+        },
+        "8a2c898d-dd38-4aad-b541-55b8872c0192": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web34.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "c041d1b9-ffbe-4e84-97e0-626b6e5d11b5",
+        "8a2c898d-dd38-4aad-b541-55b8872c0192"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "a7c2a211-fec7-4d0c-8861-a64b61cc201a": {
+      "type": "two-column-images",
+      "blocks": {
+        "b965ccf8-5da0-4758-b60c-d812ea6d4cd4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web35.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_003_web36.jpg"
+          }
+        },
+        "2f4b18f5-9026-48a6-88b4-c98c8d674a0f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web36.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_003_web35.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b965ccf8-5da0-4758-b60c-d812ea6d4cd4",
+        "2f4b18f5-9026-48a6-88b4-c98c8d674a0f"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "ed9ce249-ebbb-40cb-a811-abad5c11e387": {
+      "type": "two-column-images",
+      "blocks": {
+        "5d2e26a7-354a-4ba9-9795-c5d5cedf9a3b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web37.jpg"
+          }
+        },
+        "57aad96e-f0a0-4745-8fe4-bf95b2223f7f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web38.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "5d2e26a7-354a-4ba9-9795-c5d5cedf9a3b",
+        "57aad96e-f0a0-4745-8fe4-bf95b2223f7f"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "685647a8-82d8-47f6-b0aa-9b9a45ac645f": {
+      "type": "two-column-images",
+      "blocks": {
+        "7798eb31-e769-4271-9b1d-408aa17f62fd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web39.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_003_web40.jpg"
+          }
+        },
+        "eb4f401a-891d-4beb-a7c9-e2fdb3512550": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web40.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_003_web39.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "7798eb31-e769-4271-9b1d-408aa17f62fd",
+        "eb4f401a-891d-4beb-a7c9-e2fdb3512550"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "26b5b1e6-cc98-40c4-996e-eff1ca2f9e42": {
+      "type": "two-column-images",
+      "blocks": {
+        "e0e74716-cb08-400a-9285-80a84e79a7b3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web41.jpg"
+          }
+        },
+        "34004ffc-adb6-424f-899b-171ab20851ed": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_003_web42.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "e0e74716-cb08-400a-9285-80a84e79a7b3",
+        "34004ffc-adb6-424f-899b-171ab20851ed"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16436614291bca4b41",
+    "0cd2a747-c91b-4eb8-a290-3d54d2a4a91f",
+    "main",
+    "eb4bfafe-86b4-4468-8e93-a98fd1e82d37",
+    "5bcd0dfa-b60c-46ad-b451-6ac93b852c15",
+    "eb53afe9-5621-48dd-8485-62f3137346c9",
+    "da4d593e-1655-4cac-b292-e366805f3d5e",
+    "5b5c7ca8-990a-4221-86ce-7207e2db38b6",
+    "31048fe4-560b-48a0-821c-e5dd17fc9f69",
+    "aa37245a-3b13-44ac-b282-9b5fdb6e8ae0",
+    "8455816f-1b01-4539-a02c-f207a90a0c14",
+    "3826bfa9-6ac8-41ff-831b-6a43fa189426",
+    "c5758c62-3173-4024-b125-8c6686f0df97",
+    "d3d5ddee-872a-417f-961b-57903ec6e1cf",
+    "09312dfa-4676-4cbf-b20b-cc9e15353e81",
+    "d0d065f4-c792-47ba-99d0-7f43f1a2dd6c",
+    "1acc0e58-657a-4522-a489-28a37dfa51d2",
+    "fe31df23-46b8-4daa-abae-17b1d863a9ab",
+    "541bf520-837e-4b99-b3e7-7f3e708751da",
+    "903d2b4a-8ed3-4b4e-a6ca-57b0008307ac",
+    "65e9c3dc-955c-4f91-9ee7-bc309195f98c",
+    "a7c2a211-fec7-4d0c-8861-a64b61cc201a",
+    "ed9ce249-ebbb-40cb-a811-abad5c11e387",
+    "685647a8-82d8-47f6-b0aa-9b9a45ac645f",
+    "26b5b1e6-cc98-40c4-996e-eff1ca2f9e42"
+  ]
+}

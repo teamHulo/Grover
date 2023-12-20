@@ -1,0 +1,563 @@
+{
+  "sections": {
+    "16436614291bca4b41": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"about_text\"><p>Based in Los Angeles, Grover Rad is a women’s ready-to-wear brand founded by tech entrepreneur Lizzie Grover Rad. The Grover Rad woman isn’t afraid to say who she is and what she believes in.The brand is rooted in history and interwoven with current events. Each collection is inspired by a relevant social message intended to make the wearer and the voyeur think. The pieces are made in Los Angeles and designed with an emphasis on timeless complimentary silhouettes offset with maximalist prints and techniques.<\/p><\/div>"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_large": true
+      }
+    },
+    "5bcd0dfa-b60c-46ad-b451-6ac93b852c15": {
+      "type": "two-column-images",
+      "blocks": {
+        "a037cb15-3f72-498f-8248-6acb68aaccbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_1.1_07b63285-76cb-4497-8d7d-bbd5759c2dbf.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover-Rad-Billionaires-In-Space-1.2_36cd5e06-6969-4f1a-99e5-eec0fedaeea5.jpg"
+          }
+        },
+        "d9658113-b04e-43de-af38-59ab9fdb4b7a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Billionaires-In-Space-1.2_36cd5e06-6969-4f1a-99e5-eec0fedaeea5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_1.1_07b63285-76cb-4497-8d7d-bbd5759c2dbf.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a037cb15-3f72-498f-8248-6acb68aaccbd",
+        "d9658113-b04e-43de-af38-59ab9fdb4b7a"
+      ],
+      "settings": {
+      }
+    },
+    "eb53afe9-5621-48dd-8485-62f3137346c9": {
+      "type": "two-column-images",
+      "blocks": {
+        "18633595-8a37-4c03-8d62-3410e979b87f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_2.1.jpg"
+          }
+        },
+        "a469f199-cc7b-4dd6-8fcc-a730acf9d52f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_2.2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "18633595-8a37-4c03-8d62-3410e979b87f",
+        "a469f199-cc7b-4dd6-8fcc-a730acf9d52f"
+      ],
+      "settings": {
+      }
+    },
+    "056ef64d-3036-412c-b21f-54f8733270f2": {
+      "type": "one-column-image",
+      "blocks": {
+        "0bc35de1-60b9-4065-9206-5c30bbcb7dfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/art.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "0bc35de1-60b9-4065-9206-5c30bbcb7dfd"
+      ],
+      "settings": {
+      }
+    },
+    "eb4bfafe-86b4-4468-8e93-a98fd1e82d37": {
+      "type": "two-column-images",
+      "blocks": {
+        "61463c2b-f333-45c5-9af1-d1bedae351c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_5.1.jpg"
+          }
+        },
+        "5373c11e-79e1-4816-b62d-9a8db1637045": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_5.2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "61463c2b-f333-45c5-9af1-d1bedae351c4",
+        "5373c11e-79e1-4816-b62d-9a8db1637045"
+      ],
+      "settings": {
+      }
+    },
+    "d36eaf68-8af5-4815-a6c1-a9d8346e146f": {
+      "type": "two-column-images",
+      "blocks": {
+        "f56c89f5-610d-4357-90c8-e23562472081": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_002_web2.jpg"
+          }
+        },
+        "d4db8ff8-21f6-4f95-b07c-5acbca0f4cbc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lookbook_002_web.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f56c89f5-610d-4357-90c8-e23562472081",
+        "d4db8ff8-21f6-4f95-b07c-5acbca0f4cbc"
+      ],
+      "settings": {
+      }
+    },
+    "5b5c7ca8-990a-4221-86ce-7207e2db38b6": {
+      "type": "two-column-images",
+      "blocks": {
+        "1e5f26b3-e3eb-43be-9d8a-b1fb45d1fe07": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_6.2.jpg"
+          }
+        },
+        "379695f1-0b48-4402-bf13-b80dd1805058": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_6.1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1e5f26b3-e3eb-43be-9d8a-b1fb45d1fe07",
+        "379695f1-0b48-4402-bf13-b80dd1805058"
+      ],
+      "settings": {
+      }
+    },
+    "8455816f-1b01-4539-a02c-f207a90a0c14": {
+      "type": "two-column-images",
+      "blocks": {
+        "4e7bc4a2-bff5-4ce0-a592-6d88a89f195d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_3.1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_3.2.jpg"
+          }
+        },
+        "554c7f3a-b27d-44bd-8433-4a1d3ab9c75b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_3.2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_3.1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "4e7bc4a2-bff5-4ce0-a592-6d88a89f195d",
+        "554c7f3a-b27d-44bd-8433-4a1d3ab9c75b"
+      ],
+      "settings": {
+      }
+    },
+    "da4d593e-1655-4cac-b292-e366805f3d5e": {
+      "type": "one-column-image",
+      "blocks": {
+        "69420909-e92c-4a55-8d4d-400d13b3dab9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Billionaires-In-Space-4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "69420909-e92c-4a55-8d4d-400d13b3dab9"
+      ],
+      "settings": {
+      }
+    },
+    "c90f5058-8f8a-404b-a4f3-d1e75f1b8e87": {
+      "type": "two-column-images",
+      "blocks": {
+        "f424ae99-fdc1-4819-90b6-74c69a228dfb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web3.jpg"
+          }
+        },
+        "5f8d0055-5fef-4bf2-a64e-26a8200ac13a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web4.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f424ae99-fdc1-4819-90b6-74c69a228dfb",
+        "5f8d0055-5fef-4bf2-a64e-26a8200ac13a"
+      ],
+      "settings": {
+      }
+    },
+    "31048fe4-560b-48a0-821c-e5dd17fc9f69": {
+      "type": "two-column-images",
+      "blocks": {
+        "a6c9a0bf-339b-4c23-a54c-5f578fa52b84": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_7.1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_7.2.jpg"
+          }
+        },
+        "b58f6f7e-2844-4853-a110-1d5b7fa47384": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_7.2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_7.1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a6c9a0bf-339b-4c23-a54c-5f578fa52b84",
+        "b58f6f7e-2844-4853-a110-1d5b7fa47384"
+      ],
+      "settings": {
+      }
+    },
+    "aa37245a-3b13-44ac-b282-9b5fdb6e8ae0": {
+      "type": "two-column-images",
+      "blocks": {
+        "487328ec-f764-4567-986c-e926fba9b8ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_8.1.jpg"
+          }
+        },
+        "7166d74b-ff98-4fe9-b90c-cc39a643fa9c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_8.2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "487328ec-f764-4567-986c-e926fba9b8ab",
+        "7166d74b-ff98-4fe9-b90c-cc39a643fa9c"
+      ],
+      "settings": {
+      }
+    },
+    "3826bfa9-6ac8-41ff-831b-6a43fa189426": {
+      "type": "two-column-images",
+      "blocks": {
+        "920e2822-b30d-427b-9465-509002a67f7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_9.1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_9.2.jpg"
+          }
+        },
+        "1d59a395-84a6-45ba-919b-fbf69361c23a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_9.2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_9.1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "920e2822-b30d-427b-9465-509002a67f7e",
+        "1d59a395-84a6-45ba-919b-fbf69361c23a"
+      ],
+      "settings": {
+      }
+    },
+    "bba2dab5-6fab-460c-a179-73b4872f566c": {
+      "type": "two-column-images",
+      "blocks": {
+        "687f3319-175c-41cd-975c-060a3485ed0a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web5.jpg"
+          }
+        },
+        "ab99a5a1-e71a-4294-9ad3-cade8a6ed4e7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "687f3319-175c-41cd-975c-060a3485ed0a",
+        "ab99a5a1-e71a-4294-9ad3-cade8a6ed4e7"
+      ],
+      "settings": {
+      }
+    },
+    "e0c3b5a7-c4ed-4437-a968-3bd409a84321": {
+      "type": "one-column-image",
+      "blocks": {
+        "f682a5dd-a398-4cae-a49b-343652b45a96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_10_794197d6-b7fc-4cee-bf59-6afe8b1b6f45.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f682a5dd-a398-4cae-a49b-343652b45a96"
+      ],
+      "settings": {
+      }
+    },
+    "c5758c62-3173-4024-b125-8c6686f0df97": {
+      "type": "two-column-images",
+      "blocks": {
+        "e3a7912d-5693-445e-8e31-403e9bb963ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Billionaires-In-Space-11.1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_11.2.jpg"
+          }
+        },
+        "6a2f84df-a06a-40cc-8b93-596b7d749464": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_11.2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover-Rad-Billionaires-In-Space-11.1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "e3a7912d-5693-445e-8e31-403e9bb963ff",
+        "6a2f84df-a06a-40cc-8b93-596b7d749464"
+      ],
+      "settings": {
+      }
+    },
+    "725bb8ed-3093-4c04-8af6-b7b2b43f6072": {
+      "type": "two-column-images",
+      "blocks": {
+        "b6b19136-cae0-4927-bee4-a4cfa5861685": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web9.jpg"
+          }
+        },
+        "4c47cc94-87e5-4f28-b9b9-6f46d313a174": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/crop_circles.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b6b19136-cae0-4927-bee4-a4cfa5861685",
+        "4c47cc94-87e5-4f28-b9b9-6f46d313a174"
+      ],
+      "settings": {
+      }
+    },
+    "09312dfa-4676-4cbf-b20b-cc9e15353e81": {
+      "type": "two-column-images",
+      "blocks": {
+        "bdc7f079-5f33-44ee-b2ba-b833fd0b717f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_13.1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_13.2.jpg"
+          }
+        },
+        "48a06a8c-78cb-4b69-aa42-199e66d290c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_13.2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_13.1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "bdc7f079-5f33-44ee-b2ba-b833fd0b717f",
+        "48a06a8c-78cb-4b69-aa42-199e66d290c1"
+      ],
+      "settings": {
+      }
+    },
+    "d3d5ddee-872a-417f-961b-57903ec6e1cf": {
+      "type": "two-column-images",
+      "blocks": {
+        "6bbf0fe1-91d2-4a5c-89be-9b0a3004b638": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_12.1.jpg"
+          }
+        },
+        "1c948e37-c07b-497f-a87e-9164cfe8ae53": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Billionaires-In-Space-12.2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "6bbf0fe1-91d2-4a5c-89be-9b0a3004b638",
+        "1c948e37-c07b-497f-a87e-9164cfe8ae53"
+      ],
+      "settings": {
+      }
+    },
+    "d0d065f4-c792-47ba-99d0-7f43f1a2dd6c": {
+      "type": "two-column-images",
+      "blocks": {
+        "e9966382-41ae-495a-ab85-eeae0a8b10a8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_14.2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_14.1.jpg"
+          }
+        },
+        "5dce131d-7296-4dbd-8639-559c86599c87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Billionaires-In-Space-14.1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_14.2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "e9966382-41ae-495a-ab85-eeae0a8b10a8",
+        "5dce131d-7296-4dbd-8639-559c86599c87"
+      ],
+      "settings": {
+      }
+    },
+    "40833461-4ee5-4fe3-ac6a-dfcd01d6e743": {
+      "type": "two-column-images",
+      "blocks": {
+        "8833b1d9-9852-4a4b-b963-7655aebcc3e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web7.jpg"
+          }
+        },
+        "3ee3f326-4776-49dc-beaf-9e250d7f35f1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lookbook_002_web8.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "8833b1d9-9852-4a4b-b963-7655aebcc3e2",
+        "3ee3f326-4776-49dc-beaf-9e250d7f35f1"
+      ],
+      "settings": {
+      }
+    },
+    "9e4de998-054a-4fb8-97ed-d4efec2f1f78": {
+      "type": "one-column-image",
+      "blocks": {
+        "0ade757f-7d7d-48b2-b914-885c3c45df92": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_15.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "0ade757f-7d7d-48b2-b914-885c3c45df92"
+      ],
+      "settings": {
+      }
+    },
+    "1acc0e58-657a-4522-a489-28a37dfa51d2": {
+      "type": "two-column-images",
+      "blocks": {
+        "02a40457-324c-4976-81b5-ed9a9f1a35cb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_16.1.jpg"
+          }
+        },
+        "9ca6e884-f9c4-410a-a43a-02a9fc44e457": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_16.2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "02a40457-324c-4976-81b5-ed9a9f1a35cb",
+        "9ca6e884-f9c4-410a-a43a-02a9fc44e457"
+      ],
+      "settings": {
+      }
+    },
+    "fe31df23-46b8-4daa-abae-17b1d863a9ab": {
+      "type": "two-column-images",
+      "blocks": {
+        "5a612223-9183-4188-89ce-f420dfae072d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_17.1.jpg"
+          }
+        },
+        "c01f23a4-acb3-4dd3-b8d9-bcea00039130": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Billionaires_In_Space_17.2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "5a612223-9183-4188-89ce-f420dfae072d",
+        "c01f23a4-acb3-4dd3-b8d9-bcea00039130"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16436614291bca4b41",
+    "main",
+    "5bcd0dfa-b60c-46ad-b451-6ac93b852c15",
+    "eb53afe9-5621-48dd-8485-62f3137346c9",
+    "056ef64d-3036-412c-b21f-54f8733270f2",
+    "eb4bfafe-86b4-4468-8e93-a98fd1e82d37",
+    "d36eaf68-8af5-4815-a6c1-a9d8346e146f",
+    "5b5c7ca8-990a-4221-86ce-7207e2db38b6",
+    "8455816f-1b01-4539-a02c-f207a90a0c14",
+    "da4d593e-1655-4cac-b292-e366805f3d5e",
+    "c90f5058-8f8a-404b-a4f3-d1e75f1b8e87",
+    "31048fe4-560b-48a0-821c-e5dd17fc9f69",
+    "aa37245a-3b13-44ac-b282-9b5fdb6e8ae0",
+    "3826bfa9-6ac8-41ff-831b-6a43fa189426",
+    "bba2dab5-6fab-460c-a179-73b4872f566c",
+    "e0c3b5a7-c4ed-4437-a968-3bd409a84321",
+    "c5758c62-3173-4024-b125-8c6686f0df97",
+    "725bb8ed-3093-4c04-8af6-b7b2b43f6072",
+    "09312dfa-4676-4cbf-b20b-cc9e15353e81",
+    "d3d5ddee-872a-417f-961b-57903ec6e1cf",
+    "d0d065f4-c792-47ba-99d0-7f43f1a2dd6c",
+    "40833461-4ee5-4fe3-ac6a-dfcd01d6e743",
+    "9e4de998-054a-4fb8-97ed-d4efec2f1f78",
+    "1acc0e58-657a-4522-a489-28a37dfa51d2",
+    "fe31df23-46b8-4daa-abae-17b1d863a9ab"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_large": false
+      }
+    },
+    "16436614291bca4b41": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": ""
+      }
+    },
+    "16572363414c786fe0": {
+      "type": "press-icons-with-text",
+      "blocks": {
+        "f7b2b83a-bb03-4ed9-a8e3-1ca0df479fe9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vogue_feat._image_copy.jpg",
+            "image2": "shopify:\/\/shop_images\/press-logos-vogue_6ac972ec-d8bb-4a88-918f-256e2d6b880b.png",
+            "excerpt": "<p>\"There was a time, not so long ago, when fashion and politics didn’t really mix. But after the 2020 election cycle, COVID, and the social-justice reckoning, that’s no longer the case. Into this charged atmosphere comes Grover Rad, a new issue-led Los Angeles–based clothing brand intent on challenging the patriarchy and championing rebellion, using the mediums of art and fashion. Founder Lizzie Grover Rad has settled on abortion as the timely theme of her debut capsule collection.\" READ MORE<\/p>",
+            "pressid": "https:\/\/www.vogue.com\/article\/comic-artists-aline-komisnky-crumb-and-sophie-crumb-hold-nothing-back-in-their-collaboration-for-grover-rads-debut-collection"
+          }
+        },
+        "35eb7525-b0a8-4d73-a176-d395e463514e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/paper.jpg",
+            "image2": "shopify:\/\/shop_images\/paper-mag-logo.png",
+            "excerpt": "<p>\"If fashion is an art and art is supposed to say something, then enter stage left Lizzie Grover Rad. The LA-based tech entrepreneur slash interior design mogul (and wife of Tinder co-founder Sean Rad) is turning her empowered, feminist lens to the world of fashion.\" READ MORE<\/p>",
+            "pressid": "https:\/\/www.papermag.com\/grover-rad-fashion-2657099648.html"
+          }
+        },
+        "842e40f9-4532-4c66-ab9d-933ba5ce1761": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/W_mag.jpg",
+            "image2": "shopify:\/\/shop_images\/W-mag_32e76952-08c3-420e-9bc1-82e863652862.png",
+            "excerpt": "<p>\"When Lizzie Grover Rad first set out to launch a fashion label in 2021, she wanted to create clothing that sparked conversation. An entrepreneur and interior designer by trade (she co-founded the now folded virtual interior design service Zoom Interiors), Rad was disillusioned by the rigidity and lack of risk taking in the design space, and was looking to step away and explore a new medium through which she would be able to initiate difficult discussions.\" READ MORE<\/p>",
+            "pressid": "https:\/\/www.wmagazine.com\/fashion\/lizzie-grover-rad-fashion-abortion-rights"
+          }
+        },
+        "485c95d0-557a-4317-a04e-2819eb8c3a6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/daily.jpg",
+            "image2": "shopify:\/\/shop_images\/press-logos-daily_ebf158bf-9477-41b2-85bd-95abba2ff487.png",
+            "excerpt": "<p>\"Lizzie Grover Rad is launching her new fashion brand, Grover Rad, this spring. The L.A. based brand is locally, ethically, and sustainably produced in Los Angeles. It’s first collection is composed of 15 pieces, ranging in price from $165- $2,950, and is currently available for purchase.\" READ MORE<\/p>",
+            "pressid": "https:\/\/fashionweekdaily.com\/daily-news-imaan-hammam-covers-wsj-magazine-michael-kors-announces-kids-line-olivia-rodrigo-tapped-as-first-ever-glossier-celebrity-ambassador-and-more\/"
+          }
+        },
+        "61b50576-226d-42e3-a7c2-4c6192eeed8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle.jpg",
+            "image2": "shopify:\/\/shop_images\/elle-logo.png",
+            "excerpt": "<p>\"L.A.-based interior designer and art collector Lizzie Grover Rad is introducing her new fashion brand with a clear message: reproductive rights are human rights. Collection 001 conveys Grover Rad’s staunch position in the abortion debate with the artistic input of mother-daughter duo Aline Kominsky-Crumb and Sophie Crumb.\" READ MORE<\/p>",
+            "pressid": "https:\/\/www.elle.com\/fashion\/trend-reports\/g39611081\/the-launch-aprils-hottest-fashion-drops\/"
+          }
+        },
+        "4ea13fca-d5d6-4e1e-a369-c7f1184b5b5a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marieclaire.jpg",
+            "image2": "shopify:\/\/shop_images\/marie-claire-logo.png",
+            "excerpt": "<p>\"Graphic prints, classic silhouettes, and luxury fabrics are the brand's trademarks— incorporating both cultural messaging, historical context, and female empowerment. Each piece is made ethically in Los Angeles from conception through the final stages, crafted to withstand seasons and trends.\" READ MORE<\/p>",
+            "pressid": "https:\/\/www.marieclaire.com\/fashion\/sustainable-fashion-brands\/"
+          }
+        },
+        "cd9e0b95-71ee-4862-ab08-c17439d602dc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover_Rad_Lookbook_OPERA_COAT_PORTRAIT.jpg",
+            "image2": "shopify:\/\/shop_images\/angeleno_logo.png",
+            "excerpt": "<p>\"If Lizzie Grover Rad were summed up in one word, \"bold\" would be an apt description.. Rad's fearlessness can be seen in Grover Rad, the ready-to-wear line she launched earlier this year.\" READ MORE<\/p>",
+            "pressid": "https:\/\/digital.modernluxury.com\/publication\/?m=3624&i=752522&p=56&ver=html5"
+          }
+        },
+        "0dec6cf7-b238-4ebd-8cf7-d6881a3c1f64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image00008.jpg",
+            "image2": "shopify:\/\/shop_images\/tzr_logo.png",
+            "excerpt": "<p>\"How Lizzie Grover Rad Is Supporting Abortion Rights Through Radically Beautiful Clothes<\/p><p>Every piece has a deeper meaning.\" READ MORE<\/p>",
+            "pressid": "https:\/\/www.thezoereport.com\/fashion\/lizzie-grover-rad-profile"
+          }
+        },
+        "9c30ed40-6770-4fb5-b40d-9d80ea028cbb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5f2af8ee-43f4-4408-88da-b3250716f641.jpg",
+            "image2": "shopify:\/\/shop_images\/cultured_logo_68ae6354-580b-42ab-82c3-e7d2706b0501.png",
+            "excerpt": "<p>Grover Rad’s tightly-edited first collection melds its maker’s interests in a smart and subversive manner and features a mix of tailoring, denim, and silk separates.<em>Trompe l’oeil<\/em>tops and leggings in blue and dark red depict a topless woman’s body, while a denim shirt and trouser set features an amalgamation of recipes that were once mistaken for witchcraft, collected from women who were burned at the stake during the 16th century.<\/p>",
+            "pressid": "https:\/\/www.culturedmag.com\/article\/2022\/09\/25\/lizzie-grover-rad-art-reproductive-rights"
+          }
+        },
+        "2cad35da-1cbc-42b7-8bcc-355145f653b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wwd.jpg",
+            "image2": "shopify:\/\/shop_images\/wwd_6b707b03-093d-4ca5-8bde-be26a3dc884b.png",
+            "excerpt": "<p>Fashion Brand Grover Rad Pokes the Patriarchy With Billionaires in Space Collection<\/p><p>L.A. designer Lizzie Grover Rad is not afraid to tackle the tough topics, in fact, she’s running toward them, building her brand on sparking conversation about issues like reproductive rights (season one) and the billionaire space race that’s the next frontier for capitalism (season two).<br\/><\/p>",
+            "pressid": "https:\/\/wwd.com\/fashion-news\/fashion-features\/fashion-brand-grover-rad-pokes-patriarchy-with-billionaires-in-space-collection-1235400156\/"
+          }
+        },
+        "42be0fa9-0e50-4a8b-a50f-4c5296e88d27": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-11-18_at_10.25.47_AM.png",
+            "image2": "shopify:\/\/shop_images\/press_logo.png",
+            "excerpt": "<p>Lizzie Grover Rad Vocalizes Social Issues Through Fashion<\/p><p>In her designs, Lizzie Grover Rad brings up social issues using the power of art and fashion. She uncompromisingly wears her ideals on her sleeve (and coat). <\/p><p>\"I really wanted to create clothes that started a conversation with strangers.\"<\/p>",
+            "pressid": "https:\/\/www.lofficielusa.com\/fashion\/lizzie-grover-rad-vocalizes-social-issues-through-fashion-collection"
+          }
+        },
+        "6a9a9585-6456-4f03-8090-26bbc5217a98": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bAnnv6HSHRDq6uLhMeEtsQ-1280-80_png.webp",
+            "image2": "shopify:\/\/shop_images\/marie_claire.png",
+            "excerpt": "<p>What I Wear to Work: Lizzie Grover Rad<\/p><p>The designer uses fashion to spark conversation.<\/p><p>The idea of provoking, in general, is precisely my goal. I become empowered by any piece that elicits a response—good or bad. I thrive on that. People have asked me to stop walking so they can read the writing on my clothing—it happens a lot with the plaid coat from our first collection.<\/p>",
+            "pressid": "https:\/\/www.marieclaire.com\/fashion\/lizzie-grover-rad-work-clothing\/"
+          }
+        }
+      },
+      "block_order": [
+        "f7b2b83a-bb03-4ed9-a8e3-1ca0df479fe9",
+        "35eb7525-b0a8-4d73-a176-d395e463514e",
+        "842e40f9-4532-4c66-ab9d-933ba5ce1761",
+        "485c95d0-557a-4317-a04e-2819eb8c3a6d",
+        "61b50576-226d-42e3-a7c2-4c6192eeed8b",
+        "4ea13fca-d5d6-4e1e-a369-c7f1184b5b5a",
+        "cd9e0b95-71ee-4862-ab08-c17439d602dc",
+        "0dec6cf7-b238-4ebd-8cf7-d6881a3c1f64",
+        "9c30ed40-6770-4fb5-b40d-9d80ea028cbb",
+        "2cad35da-1cbc-42b7-8bcc-355145f653b6",
+        "42be0fa9-0e50-4a8b-a50f-4c5296e88d27",
+        "6a9a9585-6456-4f03-8090-26bbc5217a98"
+      ],
+      "settings": {
+        "heading": "",
+        "description": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16436614291bca4b41",
+    "16572363414c786fe0"
+  ]
+}

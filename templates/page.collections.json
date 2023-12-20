@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "399355ea-0ff1-47d5-93c3-e5e348c93f25": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Heading",
+            "button_text": "View products"
+          }
+        },
+        "6c3345d4-4fcb-41f4-9caf-df0142acf71c": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "Heading",
+            "button_text": "View products"
+          }
+        }
+      },
+      "block_order": [
+        "399355ea-0ff1-47d5-93c3-e5e348c93f25",
+        "6c3345d4-4fcb-41f4-9caf-df0142acf71c"
+      ],
+      "settings": {
+        "collections_to_show": "selected",
+        "image_size": "normal",
+        "add_spacing": true,
+        "expand_collection": false,
+        "apply_overlay": true,
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
+    },
+    "16436688843cd0bb2d": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "Sub-heading",
+        "title": "Title",
+        "image_position": "right",
+        "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16436688843cd0bb2d"
+  ]
+}

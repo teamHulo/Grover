@@ -1,0 +1,63 @@
+<div class="two-column-img-grid ProductList ProductList--grid Grid" data-desktop-count="2" data-mobile-count="1">
+  <div class="two-column-div">
+    {%for block in section.blocks %}
+      <div class="Grid__Cell 1/1--phone 1/2--tablet-and-up 1/2--lap-and-up two-column-img image-number{{ forloop.index }}">
+        <img class="desktop-image" src="{{block.settings.image | img_url:'master'}}"/>
+        {% if block.settings.mobile_image %}<img class="mobile-image" src="{{block.settings.mobile_image | img_url:'master'}}"/> {% else %} <img class="mobile-image" src="{{block.settings.image | img_url:'master'}}"/>{% endif %}
+      </div>
+    {%endfor%}
+  </div>
+</div>
+<style>
+  @media screen and (min-width: 641px) { 
+    .desktop-image {
+      display: block;
+    }
+    .mobile-image {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 640px) { 
+    .desktop-image {
+      display: none;
+    }
+    .mobile-image {
+      display: block;
+    }
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "two column images",
+    "settings": [],  
+  "blocks" : [
+        {
+          "type":"image",
+          "name":"column images",
+          "settings":[
+                  {
+                    "type":"image_picker",
+                    "id":"image",
+                    "label": "image",
+                    "info": "4x5 ratio"
+                  },
+                  {
+                    "type": "image_picker",
+                    "id": "mobile_image",
+                    "label": "Mobile Image"
+                  }
+                ]
+        }
+        
+        ],
+  "presets" : [
+        {
+          "category": "image",
+          "name": "two column images"
+        }
+        ]
+
+  }
+{% endschema %}
+

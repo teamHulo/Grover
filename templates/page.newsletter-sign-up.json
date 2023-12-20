@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "16436614291bca4b41": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"about_text\"><p>Based in Los Angeles, Grover Rad is a women’s ready-to-wear brand founded by tech entrepreneur Lizzie Grover Rad. The Grover Rad woman isn’t afraid to say who she is and what she believes in.The brand is rooted in history and interwoven with current events. Each collection is inspired by a relevant social message intended to make the wearer and the voyeur think. The pieces are made in Los Angeles and designed with an emphasis on timeless complimentary silhouettes offset with maximalist prints and techniques.<\/p><\/div>"
+      }
+    },
+    "1654487220694ca72f": {
+      "type": "apps",
+      "blocks": {
+        "796e03aa-d6f9-4f6f-a4ff-dfb6dd586688": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-TNHezB\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "796e03aa-d6f9-4f6f-a4ff-dfb6dd586688"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-13.jpg",
+        "include_margins": false
+      }
+    },
+    "165448758871be6136": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently Viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16436614291bca4b41",
+    "1654487220694ca72f",
+    "165448758871be6136"
+  ]
+}

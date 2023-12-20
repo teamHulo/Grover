@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "11b34fc2-95db-40fe-9c39-bbe785e8fe51": {
+          "type": "dropdown",
+          "settings": {
+            "title": "Custom field",
+            "values": "value 1, value 2, value 3"
+          }
+        }
+      },
+      "block_order": [
+        "11b34fc2-95db-40fe-9c39-bbe785e8fe51"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

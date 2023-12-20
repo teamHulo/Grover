@@ -1,0 +1,410 @@
+{
+  "sections": {
+    "11dec53e-669a-4f24-b963-1b2c0974ef54": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15490219507764__11dec53e-669a-4f24-b963-1b2c0974ef54-16662024865512a7ff-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SHOT_06_1976_v1_afb13618-8b50-4ff9-bdf9-23ac7911259f.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering womb",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "template--15490219507764__11dec53e-669a-4f24-b963-1b2c0974ef54-16662024865512a7ff-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-13.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover-Rad-Collection-12.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering Womb",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "1e7cbd0a-54e9-4e7a-a6ec-ecd2689edb10": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover-Rad-Collection-2.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering Womb",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "0e6240cd-f3c0-4632-b1dd-91a8228164e9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering Womb",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15490219507764__11dec53e-669a-4f24-b963-1b2c0974ef54-16662024865512a7ff-0",
+        "template--15490219507764__11dec53e-669a-4f24-b963-1b2c0974ef54-16662024865512a7ff-1",
+        "1e7cbd0a-54e9-4e7a-a6ec-ecd2689edb10",
+        "0e6240cd-f3c0-4632-b1dd-91a8228164e9"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#fef8f0",
+        "button_color": "#361916",
+        "button_background": "#fef8f0"
+      }
+    },
+    "74ba8df9-340f-4472-9dc6-a03345989d3b": {
+      "type": "slideshow",
+      "blocks": {
+        "bb820ae6-bc7b-4c4e-afb7-7cab7cb66909": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SHOT_06_1976_v1_afb13618-8b50-4ff9-bdf9-23ac7911259f.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering womb",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "9731a128-e861-4d14-bbee-e8c672bf750f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-13.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover-Rad-Collection-12.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering Womb",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "26d8f379-e5aa-46d2-a043-5096d9ba0435": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Grover-Rad-Collection-2.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering Womb",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "3a8107eb-8282-41bd-b483-15cd26cf9035": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grover-Rad-Collection-7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2.jpg",
+            "apply_overlay": false,
+            "content_position": "bottomLeft",
+            "subheading": "Reproductive Rights Throughout History",
+            "title": "Wandering Womb",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bb820ae6-bc7b-4c4e-afb7-7cab7cb66909",
+        "9731a128-e861-4d14-bbee-e8c672bf750f",
+        "26d8f379-e5aa-46d2-a043-5096d9ba0435",
+        "3a8107eb-8282-41bd-b483-15cd26cf9035"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#fef8f0",
+        "button_color": "#361916",
+        "button_background": "#fef8f0"
+      }
+    },
+    "b0fc915c-cd12-4fbe-872d-ce793f8bf329": {
+      "type": "slideshow",
+      "blocks": {
+        "7dce234d-1a27-48d1-a21b-7900744494cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-V1.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Nip Tuck - The Pursuit of \"Beauty\"",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "b401b3cd-f6cd-4143-8fc7-7945e6669617": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-V2.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Nip Tuck - The Pursuit of \"Beauty\"",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "5bcfcd41-dde6-4d09-8f88-62ae1928a1f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-V3.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Nip Tuck - The Pursuit of \"Beauty\"",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "19073698-32c2-4156-86ae-50173a054444": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/GROVER-RAD-COLLECTION-003-V4.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Nip Tuck - The Pursuit of \"Beauty\"",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7dce234d-1a27-48d1-a21b-7900744494cd",
+        "b401b3cd-f6cd-4143-8fc7-7945e6669617",
+        "5bcfcd41-dde6-4d09-8f88-62ae1928a1f6",
+        "19073698-32c2-4156-86ae-50173a054444"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_background": "#361916"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/horizontal-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/vertical-1_1602f078-75d5-446e-a267-eb18eba84000.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Corporate Corruption - Deal with the Devil",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "c5a9c56f-ab9a-48eb-a1ed-90b765cc44bc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/horizontal-4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/vertical-7.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Corporate Corruption - Deal with the Devil",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "d60b088b-1eb3-47d8-a461-fea43b4a2ca2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/horizontal-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/vertical-6.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Corporate Corruption - Deal with the Devil",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        },
+        "e57997df-6f21-4f84-b5f4-11fd13720a1b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/horizontal-5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/vertical-4_77c056a3-3a25-48b3-b230-9e78c31055a5.jpg",
+            "apply_overlay": false,
+            "content_position": "middleCenter",
+            "subheading": "Clothes that start conversations",
+            "title": "Corporate Corruption - Deal with the Devil",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/shop",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "c5a9c56f-ab9a-48eb-a1ed-90b765cc44bc",
+        "d60b088b-1eb3-47d8-a461-fea43b4a2ca2",
+        "e57997df-6f21-4f84-b5f4-11fd13720a1b"
+      ],
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#fef8f0",
+        "button_color": "#361916",
+        "button_background": "#fef8f0"
+      }
+    },
+    "1fcfc156-8b80-40c5-bd1f-f8553d423bf1": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15490219507764__1fcfc156-8b80-40c5-bd1f-f8553d423bf1-16655119462f5c6da1-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop",
+            "title": "Featured Products",
+            "grid_items_count": 4,
+            "button_text": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "template--15490219507764__1fcfc156-8b80-40c5-bd1f-f8553d423bf1-16655119462f5c6da1-0"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    },
+    "88aa94b9-9177-4596-8889-205ed1240131": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--15490219507764__88aa94b9-9177-4596-8889-205ed1240131-1665511959dfd3a2fb-0": {
+          "type": "look",
+          "settings": {
+            "dot_style": "light",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 40,
+            "product_2": "",
+            "product_2_horizontal_position": 45,
+            "product_2_vertical_position": 65,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--15490219507764__88aa94b9-9177-4596-8889-205ed1240131-1665511959dfd3a2fb-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "lookbook",
+        "show_mobile_product_info": false
+      }
+    },
+    "1666128751b249428e": {
+      "type": "apps",
+      "blocks": {
+        "d33d4fa7-c20d-43bf-ad22-b8bbc563c148": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-TNHezB\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "d33d4fa7-c20d-43bf-ad22-b8bbc563c148"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/newsletter-sign-up-image-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/newsletter-sign-up-image-mobile.jpg",
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "11dec53e-669a-4f24-b963-1b2c0974ef54",
+    "74ba8df9-340f-4472-9dc6-a03345989d3b",
+    "b0fc915c-cd12-4fbe-872d-ce793f8bf329",
+    "slideshow",
+    "1fcfc156-8b80-40c5-bd1f-f8553d423bf1",
+    "88aa94b9-9177-4596-8889-205ed1240131",
+    "1666128751b249428e"
+  ]
+}

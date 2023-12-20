@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_meta": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": false,
+            "show_sku": false,
+            "show_product_rating": false,
+            "show_taxes_included": false
+          }
+        },
+        "variant_selector": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "size_chart": ""
+          }
+        },
+        "9be1e9b8-f658-4f6a-a53b-f0f464f338db": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "MADE TO ORDER, ships in {{ product.metafields.custom.made_to_order_time.value }}"
+          }
+        },
+        "a33fe788-18a7-46fe-af6c-31ed262a7a5a": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "CARE GUIDE",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "7d8c8c77-1317-44d4-ac00-c929d3c54bb6": {
+          "type": "shopify:\/\/apps\/pre-order-manager-preorder\/blocks\/preorder-button-block\/7053ce2a-18da-4e24-98b3-3fdd20b313e7",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price_in_button": false,
+            "show_payment_button": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share_buttons": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_label": false
+          }
+        },
+        "73266b7b-7401-453b-b31e-0fa1d0a89a6e": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_meta",
+        "variant_selector",
+        "9be1e9b8-f658-4f6a-a53b-f0f464f338db",
+        "a33fe788-18a7-46fe-af6c-31ed262a7a5a",
+        "7d8c8c77-1317-44d4-ac00-c929d3c54bb6",
+        "buy_buttons",
+        "description",
+        "share_buttons",
+        "quantity_selector",
+        "73266b7b-7401-453b-b31e-0fa1d0a89a6e"
+      ],
+      "settings": {
+        "image_size": "large",
+        "stack_images": true,
+        "show_thumbnails": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "d1a67381-95d0-44a5-8891-97781a6768fb": {
+          "type": "product",
+          "settings": {
+            "product": "{{ product.metafields.product_fields.similar_products.value }}"
+          }
+        },
+        "ac0f14c3-9b59-4da1-8e13-b73e6361ec5b": {
+          "type": "product",
+          "settings": {
+            "product": "{{ product.metafields.product_fields.similar_products_2.value }}"
+          }
+        },
+        "4f3ef6b5-8f17-4017-b405-5215cffb7d44": {
+          "type": "product",
+          "settings": {
+            "product": "{{ product.metafields.product_fields.similar_products_3.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "d1a67381-95d0-44a5-8891-97781a6768fb",
+        "ac0f14c3-9b59-4da1-8e13-b73e6361ec5b",
+        "4f3ef6b5-8f17-4017-b405-5215cffb7d44"
+      ],
+      "settings": {
+        "heading": "COMPLETE THE LOOK",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "recently-viewed-products"
+  ]
+}

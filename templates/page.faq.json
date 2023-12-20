@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-faq",
+      "blocks": {
+        "71dfb0ed-1bf5-4f81-8612-71ca9bcb66fc": {
+          "type": "separator",
+          "settings": {
+            "title": "Orders and Payments"
+          }
+        },
+        "28d3c039-5f73-4bc9-8b15-ea9a7a07c286": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to process my order?",
+            "answer": "<p>Please allow 24-48 hours for your order to be processed and fulfilled. This process may take slightly longer during periods of high order volume. <\/p><p><\/p><p>If an order is placed with Overnight or 2-3 Day shipping before 12 pm PT Mon-Fri, it will be fulfilled the same day. If it is placed after 12 pm PT, it will be fulfilled the next business day. <\/p>"
+          }
+        },
+        "7dd805c1-eff0-461b-8461-51c7773aa34e": {
+          "type": "question",
+          "settings": {
+            "title": "How can I track my order?",
+            "answer": "<p>Once your order has been placed, we will send a confirmation email immediately and follow up with a shipping notification and tracking number. Please note that all shipping labels take a moment to update.<\/p>"
+          }
+        },
+        "baeecd0c-fe41-4008-bec3-5336072b9bbe": {
+          "type": "question",
+          "settings": {
+            "title": "What method of payment is accepted?",
+            "answer": "<p>Visa, MasterCard, Discover, American Express, and PayPal.<\/p>"
+          }
+        },
+        "017851fa-3496-4102-83b7-a48c25a52dd6": {
+          "type": "separator",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "0088ffb5-d0d4-4cff-b6e9-bba5c097ff3d": {
+          "type": "question",
+          "settings": {
+            "title": "What are the shipping options?",
+            "answer": "<p>We offer complimentary standard shipping. Orders for expedited (2-3 day) or next-day shipping, which are available for an additional charge, must be placed by 12 p.m. PT; orders placed after 12 p.m. PT will ship on the next business day. <\/p>"
+          }
+        },
+        "a2bcb76e-15f0-46fb-be9b-65d9aacfb69c": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer international shipping?",
+            "answer": "<p>Unfortunately at this time we do not offer international shipping.<\/p>"
+          }
+        },
+        "53aad8bb-a4e8-4a3f-9608-68fbad6835f4": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Do you cover duties\/tax for international shipments?",
+            "answer": "<p>All international orders are subject to duties and taxes billed by the destination country’s customs department. The recipient must bear any additional charges for customs clearance.<\/p>"
+          }
+        },
+        "0fbf9c0c-5530-4791-a928-56b902f2bcff": {
+          "type": "separator",
+          "settings": {
+            "title": "Returns"
+          }
+        },
+        "ab1009d2-024f-4b3b-ad83-61a51ac8ffb9": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "answer": "<p>Unworn and unused merchandise accompanied by the original purchase receipt can be returned or exchanged within 14 days of delivery.<\/p>"
+          }
+        },
+        "5c8fded8-2d33-4ecf-ae91-f64efad5faab": {
+          "type": "question",
+          "settings": {
+            "title": "How do I process a return?",
+            "answer": "<p>In the event you need to process a return, please email <a href=\"mailto:orders@groverrad.com\"><span style=\"text-decoration:underline\">orders@groverrad.com<\/span><\/a> within 7 days of delivery.<\/p>"
+          }
+        },
+        "a77d882d-eb12-44f8-af1d-a9f141173069": {
+          "type": "question",
+          "settings": {
+            "title": "How long will my refund take?",
+            "answer": "<p>Once your package reaches the warehouse, please allow 3 to 7 business days (depending on peak times) for your return to be processed. When your return has been accepted, your refund will be issued and you will receive a confirmation email.<\/p>"
+          }
+        },
+        "cc4ada58-af53-489d-a4d3-969ccfab74dd": {
+          "type": "separator",
+          "settings": {
+            "title": "Production"
+          }
+        },
+        "2f254157-986c-47b1-bd02-e9bd58329f2b": {
+          "type": "question",
+          "settings": {
+            "title": "Where are the clothes made?",
+            "answer": "<p>All garments are made in Los Angeles with independent local tailors and seamstresses. We only work with factories with the highest ethical standards.<\/p>"
+          }
+        },
+        "86dcf778-4450-4175-a11d-71f0779d2fb8": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you source your material?",
+            "answer": "<p>Most material is sourced within the United States with the exception of our scarf silk sourced from Italy.<\/p>"
+          }
+        },
+        "4c08c525-4cb5-4655-85c5-fdbf336833c9": {
+          "type": "question",
+          "settings": {
+            "title": "What makes your clothes sustainable?",
+            "answer": "<p>We are considered 'slow fashion'. We do not have any dead inventory and everything is made in low quantities with natural organic materials that are built to last. <\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "71dfb0ed-1bf5-4f81-8612-71ca9bcb66fc",
+        "28d3c039-5f73-4bc9-8b15-ea9a7a07c286",
+        "7dd805c1-eff0-461b-8461-51c7773aa34e",
+        "baeecd0c-fe41-4008-bec3-5336072b9bbe",
+        "017851fa-3496-4102-83b7-a48c25a52dd6",
+        "0088ffb5-d0d4-4cff-b6e9-bba5c097ff3d",
+        "a2bcb76e-15f0-46fb-be9b-65d9aacfb69c",
+        "53aad8bb-a4e8-4a3f-9608-68fbad6835f4",
+        "0fbf9c0c-5530-4791-a928-56b902f2bcff",
+        "ab1009d2-024f-4b3b-ad83-61a51ac8ffb9",
+        "5c8fded8-2d33-4ecf-ae91-f64efad5faab",
+        "a77d882d-eb12-44f8-af1d-a9f141173069",
+        "cc4ada58-af53-489d-a4d3-969ccfab74dd",
+        "2f254157-986c-47b1-bd02-e9bd58329f2b",
+        "86dcf778-4450-4175-a11d-71f0779d2fb8",
+        "4c08c525-4cb5-4655-85c5-fdbf336833c9"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
