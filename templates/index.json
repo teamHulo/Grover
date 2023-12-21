@@ -427,7 +427,7 @@
           "type": "banner",
           "settings": {
             "img": "shopify:\/\/shop_images\/GroverRadMoneyMouthMeshTop6.jpg",
-            "ratio": 100,
+            "ratio": 120,
             "color_text": "#ffffff",
             "title": "money mouth Mesh Top",
             "btn_text": "Shop Mesh Tops",
@@ -443,7 +443,7 @@
           "type": "banner",
           "settings": {
             "img": "shopify:\/\/shop_images\/grover-rad-collection-004-12.jpg",
-            "ratio": 100,
+            "ratio": 120,
             "color_text": "#ffffff",
             "title": "LEADERBOARD VELVET COAT",
             "btn_text": "Shop Coats",
