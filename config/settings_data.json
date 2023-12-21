@@ -174,10 +174,36 @@
       },
       "new-footer": {
         "type": "new-footer",
+        "blocks": {
+          "7bc5b449-b28a-422c-a337-4184c27f0917": {
+            "type": "nav",
+            "settings": {
+              "nav": "footer"
+            }
+          },
+          "d6f2806e-96b8-4ce0-ab6e-ed9fff48a65f": {
+            "type": "form",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Group.svg",
+              "title": "Subscribe to Our Emails"
+            }
+          },
+          "867b7a44-2469-442e-863b-74202284673a": {
+            "type": "nav",
+            "settings": {
+              "nav": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "7bc5b449-b28a-422c-a337-4184c27f0917",
+          "d6f2806e-96b8-4ce0-ab6e-ed9fff48a65f",
+          "867b7a44-2469-442e-863b-74202284673a"
+        ],
         "settings": {
           "padding_top": 0,
           "padding_bottom": 0,
-          "bg": "",
+          "bg": "#321a17",
           "copyright1": "© 2023 Grover Rad",
           "copyright_url1": "",
           "copyright2": "© 2023 Grover Rad",

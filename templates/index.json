@@ -465,6 +465,35 @@
         "padding_bottom": 0,
         "fill_height": true
       }
+    },
+    "30285fe8-04c8-4e21-8e01-15f28da22394": {
+      "type": "featured-slider",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "title": "Featured Products",
+        "collection": "shop"
+      }
+    },
+    "b0c39f0a-1c45-416b-ab5c-2a2a7c14605a": {
+      "type": "section-banner",
+      "settings": {
+        "padding_x": 0,
+        "padding_y": 0,
+        "fill_height": true,
+        "height_section": "60",
+        "img": "shopify:\/\/shop_images\/19e1c330c140ef7c21b35304c6c377ef.png",
+        "color_text": "#fff",
+        "label": "Corporate Corruption - Deal With the Devil",
+        "title": "Read the Backstory",
+        "text": "",
+        "btn_text": "LEARN MORE",
+        "btn_url": "#",
+        "text_width": 600,
+        "text_align_item": "center",
+        "text_position_x": "center",
+        "text_position_y": "end"
+      }
     }
   },
   "order": [
@@ -476,6 +505,8 @@
     "88aa94b9-9177-4596-8889-205ed1240131",
     "1666128751b249428e",
     "ea845bf5-88b9-45c3-bfa5-17793a9c174c",
-    "d79b24e1-be48-4026-87cc-e79986973d84"
+    "d79b24e1-be48-4026-87cc-e79986973d84",
+    "30285fe8-04c8-4e21-8e01-15f28da22394",
+    "b0c39f0a-1c45-416b-ab5c-2a2a7c14605a"
   ]
 }
