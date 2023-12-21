@@ -419,6 +419,52 @@
         "text_position_x": "center",
         "text_position_y": "end"
       }
+    },
+    "d79b24e1-be48-4026-87cc-e79986973d84": {
+      "type": "section-small-banner",
+      "blocks": {
+        "adaeea95-1efc-40f1-8722-5345cd2e69a2": {
+          "type": "banner",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/GroverRadMoneyMouthMeshTop6.jpg",
+            "ratio": 126,
+            "color_text": "#fff",
+            "title": "money mouth Mesh Top",
+            "btn_text": "Shop Mesh Tops",
+            "btn_url": "#",
+            "btn_is_outline": false,
+            "text_width": 400,
+            "text_align_item": "center",
+            "text_position_x": "center",
+            "text_position_y": "end"
+          }
+        },
+        "baed4800-36ca-4356-981b-629bb7e82ed5": {
+          "type": "banner",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/grover-rad-collection-004-12.jpg",
+            "ratio": 126,
+            "color_text": "#fff",
+            "title": "LEADERBOARD VELVET COAT",
+            "btn_text": "Shop Coats",
+            "btn_url": "#",
+            "btn_is_outline": false,
+            "text_width": 400,
+            "text_align_item": "center",
+            "text_position_x": "center",
+            "text_position_y": "end"
+          }
+        }
+      },
+      "block_order": [
+        "adaeea95-1efc-40f1-8722-5345cd2e69a2",
+        "baed4800-36ca-4356-981b-629bb7e82ed5"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fill_height": true
+      }
     }
   },
   "order": [
@@ -429,6 +475,7 @@
     "1fcfc156-8b80-40c5-bd1f-f8553d423bf1",
     "88aa94b9-9177-4596-8889-205ed1240131",
     "1666128751b249428e",
-    "ea845bf5-88b9-45c3-bfa5-17793a9c174c"
+    "ea845bf5-88b9-45c3-bfa5-17793a9c174c",
+    "d79b24e1-be48-4026-87cc-e79986973d84"
   ]
 }
