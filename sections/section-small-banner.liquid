@@ -1,0 +1,262 @@
+<style>
+#shopify-section-{{ section.id }} {
+    color: {{ section.settings.color_text }};
+    {% if section.settings.fill_height %}
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    {% endif %}
+}
+.small-banner {
+    display: flex;
+}
+
+.small-banner__title {
+    font-family: 'Happy Times';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 0;
+}
+.small-banner__text .btn {
+    color: #FFF;
+    font-family: 'Happy Times';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 170%;
+    text-decoration-line: underline;
+}
+
+.small-banner__img {
+    position: relative;
+    padding-top: 100%;
+}
+.small-banner__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    top: 0;
+}
+.small-banner__item {
+    flex: 1;
+    display: flex;
+}
+.small-banner__img {
+    flex-grow: 1;
+}
+.small-banner__text {
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+@media(max-width: 576px) {
+    .small-banner {
+        flex-wrap: wrap;
+    }
+    .small-banner__item {
+        width: 100%;
+        flex: auto;
+    }
+    .small-banner__title {
+        font-size: 16px;
+    }
+    .small-banner__text .btn {
+        font-size: 14px;
+    }
+}
+</style>
+
+<div class="small-banner__wrapper">
+    <div class="small-banner">
+        {% for block in section.blocks %}
+            <div class="small-banner__item" 
+                style="text-align: {{ block.settings.text_align_item }};color:{{ block.settings.color_text }};justify-content: {{ block.settings.text_position_x }};align-items: {{ block.settings.text_position_y }};">
+                <div class="small-banner__img" {% if block.settings.ratio != "100" %}style="padding-top: {{ block.settings.ratio }}%;"{% endif %}>
+                    <img src="{{ block.settings.img | img_url: 'master' }}" alt="">
+                </div>
+                <div class="small-banner__text">
+                    {% if block.settings.title != blank %}
+                        <h3 class="small-banner__title">{{ block.settings.title | upcase }}</h3>
+                    {% endif %}
+                    {% if block.settings.btn_text != blank and block.settings.btn_url != blank %}
+                        <a href="{{ block.settings.btn_url }}" class="btn">{{ block.settings.btn_text }}</a>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% schema %}
+    {
+        "name": "Small banner",
+        "tag": "section",
+        "settings": [
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 180,
+                "step": 2,
+                "unit": "px",
+                "label": "Section padding top",
+                "default": 0
+            }, 
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 180,
+                "step": 2,
+                "unit": "px",
+                "label": "Section padding bottom",
+                "default": 0
+            },
+            {
+                "type": "checkbox",
+                "id": "fill_height",
+                "label": "Full height",
+                "default": true
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Banner",
+                "type": "banner",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "label": "Image",
+                        "id": "img"
+                    },
+                    {
+                        "type": "range",
+                        "id": "ratio",
+                        "min": 50,
+                        "max": 150,
+                        "step": 1,
+                        "default": 100,
+                        "unit": "px",
+                        "label": "Image aspect ratio"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Block with text"
+                    }, 
+                    {
+                        "type": "color",
+                        "label": "Text color",
+                        "id": "color_text",
+                        "default": "#fff"
+                    },
+                    {
+                        "type": "text",
+                        "label": "Title",
+                        "id": "title",
+                        "default": "the skincare regime builder"
+                    },
+                    {
+                        "type": "text",
+                        "label": "Button text",
+                        "id": "btn_text",
+                        "default": "Take the skincare regime"
+                    },
+                    {
+                        "type": "url",
+                        "label": "Button url",
+                        "id": "btn_url"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "btn_is_outline",
+                        "label": "Outline button",
+                        "default": false
+                    }, 
+                    {
+                        "type": "header",
+                        "content": "Positioning of the block with text"
+                    }, 
+                    {
+                        "type": "range",
+                        "id": "text_width",
+                        "min": 200,
+                        "max": 800,
+                        "step": 10,
+                        "default": 400,
+                        "unit": "px",
+                        "label": "Max width block with text"
+                    },
+                    {
+                        "type": "select",
+                        "id": "text_align_item",
+                        "options": [
+                            {
+                                "value": "left",
+                                "label": "Left"
+                            },
+                            {
+                                "value": "center",
+                                "label": "Center"
+                            },
+                            {
+                                "value": "right",
+                                "label": "Right"
+                            }
+                        ],
+                        "default": "left",
+                        "label": "Text align item"
+                    },
+                    {
+                        "type": "select",
+                        "id": "text_position_x",
+                        "options": [
+                            {
+                                "value": "normal",
+                                "label": "Left"
+                            },
+                            {
+                                "value": "center",
+                                "label": "Center"
+                            },
+                            {
+                                "value": "end",
+                                "label": "Right"
+                            }
+                        ],
+                        "default": "center",
+                        "label": "Horizontal position"
+                    },
+                    {
+                        "type": "select",
+                        "id": "text_position_y",
+                        "options": [
+                            {
+                                "value": "start",
+                                "label": "Top"
+                            },
+                            {
+                                "value": "center",
+                                "label": "Center"
+                            },
+                            {
+                                "value": "end",
+                                "label": "Bottom"
+                            }
+                        ],
+                        "default": "center",
+                        "label": "Vertical position "
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Small banner"
+            }
+        ]
+    }
+{% endschema %}

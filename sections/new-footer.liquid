@@ -1,0 +1,324 @@
+<style>
+#shopify-section-{{ section.id }} {
+  background-color: {{ section.settings.bg }};
+  /* background-color: #adaaaa; */
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  color: white;
+}
+.new-footer__copyright {
+  margin-top: 50px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+}
+.new-footer__copyright a {
+  color: var(--Cream, #FAF4EC);
+  font-family: 'Happy Times';
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.new-footer__wrapper {
+  padding: 18px 50px;
+}
+.new-footer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.new-footer_nav ul {
+  list-style: none;
+  display: flex;
+  gap: 17px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.new-footer_nav ul li {
+  font-family: 'Happy Times';
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.new-footer_nav {
+  display: flex;
+}
+.new-footer_nav.item:last-child {
+  justify-content: end;
+}
+.new-footer_nav {
+  flex: 1;
+}
+.new-footer__newsletter {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.new-footer__newsletter img {
+  display: block;
+  margin: 0 auto;
+}
+.new-footer__newsletter h3 {
+  text-align: center;
+  font-family: 'Happy Times';
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+.new-footer__newsletter .form__input {
+  border-color: white !important;
+}
+.new-footer__newsletter .form__input::placeholder {
+  color: var(--Cream, #FAF4EC);
+  font-family: 'Happy Times';
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+}
+.new-footer__newsletter .email {
+  position: relative;
+  width: 322px;
+  margin: 0 auto;
+}
+.new-footer__newsletter .field__button {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.new-footer__newsletter .field__button svg {
+  width: 13px;
+}
+@media(max-width: 576px) {
+  .new-footer {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .new-footer__newsletter {
+    width: 100%;
+    flex: content;
+    order: 1;
+  }
+  .new-footer_nav {
+    order: 2;
+  }
+  .new-footer__newsletter .email {
+    width: 260px;
+  }
+  .new-footer__wrapper {
+    padding: 18px 22px;
+  }
+}
+</style>
+<footer>
+  <div class="new-footer__wrapper">
+    <div class="new-footer">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'nav' %}
+            <div class="new-footer_nav item">
+              <ul>
+                {% for link in block.settings.nav.links %}
+                  <a href="{{ link.url }}">
+                    <li>{{ link.title }}</li>
+                  </a>
+                {% endfor %}
+              </ul>
+            </div>
+          {% when 'form' %}
+            <div class="new-footer__newsletter item">
+              {% if block.settings.logo != blank %}
+                <img src="{{ block.settings.logo | img_url: 'master' }}" alt="">
+              {% endif %}
+              {%- form 'customer', id: 'footer-newsletter', class: 'new-footer__form' -%}
+                {%- if form.posted_successfully? -%}
+                  <p class="Form__Alert Alert Alert--success">{{ 'footer.newsletter.success' | t }}</p>
+                {%- else -%}
+                  {%- if form.errors -%}
+                    <p class="Form__Alert Alert Alert--error">{{ form.errors.messages['email'] }}</p>
+                  {%- endif -%}
+                  {% if block.settings.title != blank %}
+                    <h3>{{ block.settings.title }}</h3>
+                  {% endif %}
+                  <input type="hidden" name="contact[tags]" value="newsletter">
+                  <div class="email">
+                    <input type="email" name="contact[email]" class="Form__Input form__input" aria-label="{{ 'footer.newsletter.input' | t }}" placeholder="{{ 'footer.newsletter.input' | t }}" required>
+                    <button
+                      type="submit"
+                      class="newsletter-form__button field__button"
+                      >
+                      {% render 'icon-arrow' %}
+                    </button>
+                  </div>
+                {%- endif -%}
+              {%- endform -%}
+            </div>
+          {% else %}
+            
+        {% endcase %}
+      {% endfor %}
+    </div>
+    <div class="new-footer__copyright">
+      {% if section.settings.copyright1 != blank %}
+        <a href="{{ section.settings.copyright_url1 }}">
+          <span>{{ section.settings.copyright1 }}</span>
+        </a>
+        <span>&#8226;</span>
+      {% endif %}
+      {% if section.settings.copyright2 != blank %}
+        <a href="{{ section.settings.copyright_url2 }}">
+          <span>{{ section.settings.copyright2 }}</span>
+        </a>
+        <span>&#8226;</span>
+      {% endif %}
+      {% if section.settings.copyright3 != blank %}
+        <a href="{{ section.settings.copyright_url3 }}">
+          <span>{{ section.settings.copyright3 }}</span>
+        </a>
+        <span>&#8226;</span>
+      {% endif %}
+      {% if section.settings.copyright4 != blank %}
+        <a href="{{ section.settings.copyright_url4 }}">
+          <span>{{ section.settings.copyright4 }}</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "New Footer",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Section padding top",
+      "default": 0
+    }, 
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Section padding bottom",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "bg",
+      "label": "Background color"
+    },
+    {
+      "type": "header",
+      "content": "Copyright item 1"
+    },
+    {
+      "type": "text",
+      "id": "copyright1",
+      "label": "Copyright item text",
+      "default": "© 2023 Grover Rad"
+    },
+    {
+      "type": "url",
+      "id": "copyright_url1",
+      "label": "Copyright item url"
+    },
+    {
+      "type": "header",
+      "content": "Copyright item 2"
+    },
+    {
+      "type": "text",
+      "id": "copyright2",
+      "label": "Copyright item text",
+      "default": "© 2023 Grover Rad"
+    },
+    {
+      "type": "url",
+      "id": "copyright_url2",
+      "label": "Copyright item url"
+    },
+    {
+      "type": "header",
+      "content": "Copyright item 3"
+    },
+    {
+      "type": "text",
+      "id": "copyright3",
+      "label": "Copyright item text",
+      "default": "© 2023 Grover Rad"
+    },
+    {
+      "type": "url",
+      "id": "copyright_url3",
+      "label": "Copyright item url"
+    },
+    {
+      "type": "header",
+      "content": "Copyright item 4"
+    },
+    {
+      "type": "text",
+      "id": "copyright4",
+      "label": "Copyright item text",
+      "default": "© 2023 Grover Rad"
+    },
+    {
+      "type": "url",
+      "id": "copyright_url4",
+      "label": "Copyright item url"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Nav",
+      "type": "nav",
+      "settings": [
+        {
+          "type": "link_list",
+          "id": "nav",
+          "label": "Menu"
+
+        }
+      ]
+    },
+    {
+      "name": "News letter",
+      "type": "form",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

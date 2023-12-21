@@ -1,0 +1,66 @@
+
+.reviews-slider .swiper-pagination-progressbar {
+    background-color: rgba(50, 26, 23, 0.10);
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: none;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: none;
+}
+.swiper-pagination-progressbar-fill {
+    background-color: #321A17 !important;
+}
+.swiper-btn {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.swiper:hover .swiper-btn {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.featured-slider__label .title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.featured-slider__label .title h4 {
+    font-family: 'Happy Times';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card-reviews__img img {
+    width: 100%;
+}
+.card-reviews__info {
+    margin-top: 10px;
+}
+.card-reviews__info .title {
+    color: var(--Brown, #321A17);
+    font-family: 'Happy Times';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 0;
+}
+.card-reviews__info .price {
+    color: var(--Brown, #321A17);
+    font-family: 'Happy Times';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+@media(max-width: 576px) {
+    .card-reviews__info .title {
+        font-size: 13px;
+    }
+    .card-reviews__info .price {
+        font-size: 10px;
+    }
+}

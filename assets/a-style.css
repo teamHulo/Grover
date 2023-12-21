@@ -1,3 +1,37 @@
+/* @font-face {
+  font-family: "Happy Times";
+  src: url(https://cdn.shopify.com/s/files/1/0551/2927/6468/files/happy-times-NG_bold_master_web.ttf?v=1703082181);
+}
+@font-face {
+  font-family: "Happy Times";
+  src: url(https://cdn.shopify.com/s/files/1/0551/2927/6468/files/happy-times-NG_italic_master_web.ttf?v=1703082243);
+} */
+@font-face {
+  font-family: "Happy Times";
+  src: url(https://cdn.shopify.com/s/files/1/0551/2927/6468/files/happy-times-NG_regular_master_web.ttf?v=1703082293);
+}
+.template-index .Header__LogoImage {
+  transition: all 1s;
+  position: relative;
+}
+.template-index .Header--transparent .Header__LogoLink .Header__LogoImage {
+  transition: all 1s;
+  max-width: clamp(200px, 59.3vw, 792px);
+}
+.a-btn {
+  color: #321A17;
+  padding: 10px 44px;
+  background-color: white;
+  text-align: center;
+  font-family: "Happy Times";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
+
 a#BIS_trigger{
   display:none;
 }

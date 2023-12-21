@@ -40,7 +40,7 @@
 
     {% render 'social-meta-tags' %}
     {% render 'css-variables' %}
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     {{ content_for_header }}
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
@@ -406,7 +406,7 @@ margin: 0 auto;
         {{ content_for_layout }}
       </main>
 
-      {% section 'footer' %}
+      {% section 'new-footer' %}
     </div>
       
     
@@ -422,7 +422,9 @@ margin: 0 auto;
 {% render 'back-in-stock-helper' %}
 <!-- End Back in Stock helper snippet -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-     <script src="{{ 'a-script.js' | asset_url }}" ></script>     
+     <script src="{{ 'a-script.js' | asset_url }}" ></script>   
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="{{ 's-slider.js' | asset_url }}" defer="defer"></script>  
 {% render 'preorder-now' %}
   </body>
 </html>

@@ -1,0 +1,137 @@
+{{ 'featured-slider.css' | asset_url | stylesheet_tag }}
+
+<style>
+#shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+
+</style>
+<div class="featured-slider">
+    <div class="container">
+        <div class="featured-slider__wrap">
+            <div class="featured-slider__label">
+              <div class="title">
+                  <h4>{{ section.settings.title }}</h4>
+              </div>
+            </div>
+            <s-slider class="swiper">
+              <script class="config" type="application/json">
+              {
+                      "slidesPerView": 3.5,
+                      "spaceBetween": 36,
+                      "centeredSlides": "true",
+                      "loop": true,
+                      "navigation": {
+                        "nextEl": ".swiper-button-next",
+                        "prevEl": ".swiper-button-prev"
+                      },
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "progressbar"
+                      },
+                      "breakpoints": {
+                        "100": {
+                          "slidesPerView": 1
+                        },
+                        "300": {
+                          "slidesPerView": 1.5
+                        },
+                        "500": {
+                          "slidesPerView": 2.5
+                        },
+                        "767": {
+                          "slidesPerView": 3.5
+                        },
+                        "900": {
+                          "slidesPerView": 3.5
+                        },
+                        "1024": {
+                          "slidesPerView": 4
+                        }
+                      }
+                  }
+              </script>
+                <div class="swiper-wrapper">
+                    {% for product in section.settings.collection.products %}
+                        <div class="swiper-slide">
+                            <a href="{{ product.url }}">
+                                <div class="card-reviews">
+                                    <div class="card-reviews__img">
+                                      <img src="{{ product.featured_image | image_url: width: 270 }}" 
+                                            width="270"
+                                            height="408"
+                                            loading="lazy"
+                                            alt="{{ product.featured_image.alt }}"
+                                      >
+                                    </div>
+                                    <div class="card-reviews__info">
+                                        <p class="title">{{ product.title }}</p>
+                                        <p class="price">{{ product.price | money }}</p>
+                                    </div>
+                                  </div>
+                            </a>
+                        </div>
+                    {% endfor %}
+
+                </div>
+                <div class="swiper-button-next swiper-btn" style="right: 20px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" fill="none">
+                        <path d="M1.0003 8.30769H21.7695M21.7695 8.30769L14.5455 1M21.7695 8.30769L14.5455 15.6154" stroke="#321A17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="swiper-button-prev swiper-btn" style="left: 20px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="17" viewBox="0 0 23 17" fill="none">
+                        <path d="M21.7692 8.30769H1M1 8.30769L8.22408 1M1 8.30769L8.22408 15.6154" stroke="#321A17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="pagination__wrap" style="max-width: 90vw; margin: 0 auto;">
+                  <div class="swiper-pagination" style="position: relative;margin-top: 24px;"></div> 
+                </div>
+            </s-slider>
+        </div>
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "Featured slider",
+    "settings": [
+      {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_top",
+          "default": 36
+      },
+      {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_bottom",
+          "default": 36
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "title",
+        "default": "Customer Reviews"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured slider"
+      }
+    ]
+  }
+{% endschema %}
