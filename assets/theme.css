@@ -3086,7 +3086,13 @@ select::-ms-expand {
 .HorizontalList__Item > .Link {
   display: inline-block;
 }
-
+.HorizontalList__Item .Heading {
+  font-family: 'Happy Times';
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .HorizontalList--spacingTight {
   margin-left: -8px;
   margin-right: -8px;
