@@ -8278,7 +8278,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   border-top: none;
   transition: all 0.3s ease-in-out;
 }
-
+.DropdownMenu {
+  color: var(--header-heading-color);
+}
 .DropdownMenu::before {
   content: "";
   position: absolute;
