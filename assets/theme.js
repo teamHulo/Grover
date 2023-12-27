@@ -4737,6 +4737,7 @@
           this.delegateElement.on('click', '.Header__MainNav [aria-haspopup]', this._handleTouchMenu.bind(this));
         }
 
+        // disabled the hover from the headere
         // if (this.options['hasTransparentHeader']) {
         //   this.element.addEventListener('mouseenter', this._focusNavigationListener);
         //   this.element.addEventListener('focusin', this._focusNavigationListener);
