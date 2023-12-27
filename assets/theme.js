@@ -4737,10 +4737,10 @@
           this.delegateElement.on('click', '.Header__MainNav [aria-haspopup]', this._handleTouchMenu.bind(this));
         }
 
-        if (this.options['hasTransparentHeader']) {
-          this.element.addEventListener('mouseenter', this._focusNavigationListener);
-          this.element.addEventListener('focusin', this._focusNavigationListener);
-        }
+        // if (this.options['hasTransparentHeader']) {
+        //   this.element.addEventListener('mouseenter', this._focusNavigationListener);
+        //   this.element.addEventListener('focusin', this._focusNavigationListener);
+        // }
 
         if (this.options['isSticky'] && this.options['hasTransparentHeader']) {
           window.addEventListener('scroll', this._checkTransparentHeaderListener);
