@@ -8279,7 +8279,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   transition: all 0.3s ease-in-out;
 }
 .DropdownMenu {
-  color: var(--header-heading-color);
+  color: black;
 }
 .DropdownMenu::before {
   content: "";
