@@ -3088,7 +3088,7 @@ select::-ms-expand {
 }
 .HorizontalList__Item .Heading {
   font-family: 'Happy Times' !important;
-  font-size: 10px;
+  font-size: 10px !important;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
