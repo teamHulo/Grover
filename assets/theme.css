@@ -11538,7 +11538,7 @@ ul, ol {
   
   
   .Heading.Link.Link--primary.Text--subdued.u-h8 {
- font-size: 12px !important; 
+ font-size: 12px; 
 }
 
 nav a:hover{
